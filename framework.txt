@@ -1,0 +1,44 @@
+Arham Arshad
+B00768939
+CSCI 2170 
+Assignment 5
+
+FILES UPDATE:
+Sessions added to all files.
+Login functionality implemented.
+logout functionality implemented.
+Logout.php also included in A5 folder.
+
+Files for assignment 5 are all stored in the files folder.
+Lastly, a secure login and password check has been implemented along with the use of prepared statements on each page
+
+index.php and post.php
+Dynamically added functionality to both pages using content provided. Added php code to display all the comments and posts dynamically on the web page.
+Used files functions, GET and POST methods and forms to display all the web content. 
+Purpose of each site:
+Picturegram shares a similar concept to that of Instagram. It is a dynamic website that allows users to post pictures and also view/comment on other users' posts. The website has the follow pages:
+Home - where you see all the latest posts by other users
+About - Gives you the information about the user
+Login - Ask for your credentials to login in to your account
+Add post - Lets you add a new post to your feed
+Post - lets you view a post fully (when clicked on from the home page)
+
+Adaption of templates:
+The website required the adoption of two templates:
+The main template was Bootstrap's Clean Blog Theme retrieved from https://startbootstrap.com/themes/clean-blog/ Friday October 2nd 2020 which serves as the main code for the web pages such as Home, About, Login and Add Post.
+
+The second template used was the comment section code from the Bootstrap Blog Post template retrieved from from https://startbootstrap.com/templates/blog-post/ on Friday October 2nd 2020
+
+Functions such as array_filter() and array_values() were referenced from 
+https://www.w3schools.com/php/DEFAULT.asp
+
+Images used in the page were provided by the instructor, text was dummy text generated from lorem ipsum.
+
+No such additional CSS was used. 
+
+Description of database:
+The database called PictureGram (located in the files folder) is a database containing three tables; Users, Post and Comments. Each table is responsible for dynamically displaying data on the website.
+
+Using multiple SELECT and INSERT statements I successfully displayed content on the database.
+
+Methods like strtoftime() was referenced from w3schools.org
